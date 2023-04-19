@@ -1,5 +1,5 @@
 import React from 'react';
-const Todo = () => {
+const Todo = ({title,dispatch,id}) => {
     return (
         <>
             <div className='todo'>
